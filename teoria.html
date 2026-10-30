@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Teoria | Arrhenius</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a class="logo" href="index.html">⚗ Arrhenius</a>
+        <div class="menu">
+            <a href="index.html">Início</a>
+            <a href="teoria.html">A Teoria</a>
+            <a href="acidos_bases.html">Ácidos e Bases</a>
+            <a href="sais_indicadores.html">Sais e Indicadores</a>
+            <a href="quiz.html">Quiz</a>
+        </div>
+    </nav>
+
+    <main>
+        <section>
+
+            <img src="imagem/b251f0a1-4af2-4e5d-bbcc-e0d8fa748828.jpg" width="650"
+                alt="">
+
+            
+            <h2>Entendendo a Teoria de Arrhenius</h2>
+            <p>
+                Proposta no contexto dos estudos sobre eletrólitos,
+                a teoria explica como certas substâncias formam íons
+                em água e como esses íons participam das reações químicas.
+            </p>
+
+            <article class="acordeao">
+                <button class="titulo-acordeao" aria-expanded="false">
+                    Quem foi Svante Arrhenius? <span>+</span>
+                </button>
+                <div class="conteudo-acordeao">
+                    <p>
+                        Svante Arrhenius (1859–1927) foi um cientista sueco.
+                        Seus estudos sobre soluções eletrolíticas ajudaram
+                        a explicar por que soluções contendo íons conduzem
+                        corrente elétrica. Recebeu o Nobel de Química em 1903.
+                    </p>
+                </div>
+            </article>
+
+            <article class="acordeao">
+                <button class="titulo-acordeao" aria-expanded="false">
+                    O que é ionização? <span>+</span>
+                </button>
+                <div class="conteudo-acordeao">
+                    <p>
+                        Ionização é a formação de íons a partir de moléculas.
+                        Por exemplo, o HCl reage com a água, formando
+                        H₃O⁺ e Cl⁻.
+                    </p>
+                    <p><strong>HCl + H₂O → H₃O⁺ + Cl⁻</strong></p>
+                </div>
+            </article>
+
+            <article class="acordeao">
+                <button class="titulo-acordeao" aria-expanded="false">
+                    O que é dissociação iônica? <span>+</span>
+                </button>
+                <div class="conteudo-acordeao">
+                    <p>
+                        É a separação dos íons que já existiam em um composto
+                        iônico quando ele se dissolve em água.
+                    </p>
+                    <p><strong>NaOH → Na⁺ + OH⁻</strong></p>
+                </div>
+            </article>
+
+            <article class="acordeao">
+                <button class="titulo-acordeao" aria-expanded="false">
+                    Quais são os limites da teoria? <span>+</span>
+                </button>
+                <div class="conteudo-acordeao">
+                    <p>
+                        O modelo de Arrhenius se concentra em soluções aquosas.
+                        Outras teorias, como as de Brønsted-Lowry e Lewis,
+                        ampliam a definição de ácidos e bases para situações
+                        que o modelo original não descreve completamente.
+                    </p>
+                </div>
+            </article>
+        </section>
+
+        <section>
+            <h2>Linha do tempo científica</h2>
+            <div class="linha-tempo">
+                <div class="anos">
+                    <button class="ativo" onclick="mostrarAno('ano1859', this)">1859</button>
+                    <button onclick="mostrarAno('ano1887', this)">1887</button>
+                    <button onclick="mostrarAno('ano1903', this)">1903</button>
+                </div>
+
+                <div id="ano1859" class="evento ativo">
+                    <h3>Nascimento de Arrhenius</h3>
+                    <p>Svante Arrhenius nasce na Suécia, em 19 de fevereiro de 1859.</p>
+                </div>
+
+                <div id="ano1887" class="evento">
+                    <h3>Teoria da dissociação</h3>
+                    <p>Arrhenius publica trabalho fundamental sobre a dissociação de substâncias em solução.</p>
+                </div>
+
+                <div id="ano1903" class="evento">
+                    <h3>Prêmio Nobel</h3>
+                    <p>Recebe o Prêmio Nobel de Química por sua teoria da dissociação eletrolítica.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Projeto de Química • Teoria de Arrhenius</p>
+        <p>Material educativo para o Ensino Médio</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
